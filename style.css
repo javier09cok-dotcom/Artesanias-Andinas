@@ -1,0 +1,157 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f3eb; /* Fondo cálido estilo pergamino/tierra */
+  color: #333333;
+}
+
+.contenedor-titulo {
+  width: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #7c2d12 0%, #b45309 100%); /* Degradado terracota/ocre */
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contenedor-titulo h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.contenedor-titulo p {
+  margin: 10px 0 25px 0;
+  font-size: 1.1rem;
+  color: #fde68a;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+}
+
+.menu a:hover {
+  background-color: #ffffff;
+  color: #7c2d12;
+}
+
+/*INICIO */
+.seccion-inicio {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #efe6d5;
+  border-bottom: 3px solid #d97706;
+}
+
+.caja-contenido {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.caja-contenido h2 {
+  color: #7c2d12;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.caja-contenido p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #7c2d12;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.boton:hover {
+  background-color: #9a3412;
+}
+
+/*CATÁLOGO CON COSTOS */
+.seccion-catalogo {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.seccion-catalogo h2 {
+  color: #7c2d12;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.subtitulo-seccion {
+  color: #666666;
+  margin-bottom: 40px;
+}
+
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.tarjeta-producto {
+  background-color: #ffffff;
+  width: 240px;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tarjeta-producto img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.tarjeta-producto h3 {
+  color: #7c2d12;
+  margin: 15px 0 8px 0;
+}
+
+.tarjeta-producto p {
+  font-size: 0.9rem;
+  color: #555555;
+  line-height: 1.4;
+}
+
+.precio {
+  display: inline-block;
+  margin-top: 12px;
+  background-color: #fef3c7;
+  color: #92400e;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 6px 15px;
+  border-radius: 6px;
+}
+
+/* PIE DE PÁGINA */
+.pie-pagina {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #33261d;
+  color: #e5e5e5;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
